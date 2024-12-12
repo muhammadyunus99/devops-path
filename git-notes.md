@@ -118,7 +118,7 @@ git branch -M main
 
 ### 3. Push the Branch to Remote:
 ```bash
-```
 git push -u origin main
+```
 - Pushes the main branch to the remote.
 - Sets origin/main as the default upstream branch for future pushes/pulls.
