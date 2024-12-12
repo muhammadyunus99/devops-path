@@ -55,6 +55,7 @@
 ```text
 Working Tree  →  Staging Area  →  Local Repository  →  Remote Repository
     (edit)           (add)             (commit)              (push)
+```
 
 # Understanding "Checked Out"
 
@@ -93,6 +94,7 @@ Working Tree  →  Staging Area  →  Local Repository  →  Remote Repository
 ## Command
 ```bash
 git branch -M <new-branch-name>
+```
 Renames the current branch, with force overwriting if a branch with the new name already exists.
 
 ### Why Use It?
@@ -105,15 +107,18 @@ Renames the current branch, with force overwriting if a branch with the new name
 ### 1. Set the Remote URL:
 ```bash
 git remote add origin https://github.com/username/repository.git
+```
 - Links the local repository to a remote one.
 
 ### 2. Rename the Current Branch:
 ```bash
 git branch -M main
+```
 - Renames the branch to main, overwriting an existing main branch if necessary.
 
 ### 3. Push the Branch to Remote:
 ```bash
+```
 git push -u origin main
 - Pushes the main branch to the remote.
 - Sets origin/main as the default upstream branch for future pushes/pulls.
